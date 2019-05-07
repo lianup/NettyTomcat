@@ -1,6 +1,5 @@
 package com.lianup.catalina;
 
-import com.lianup.catalina.handler.MyHandler;
 import com.lianup.catalina.handler.ServletHandler;
 import com.lianup.catalina.handler.StaticHandler;
 import io.netty.bootstrap.ServerBootstrap;
