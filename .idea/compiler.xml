@@ -9,8 +9,8 @@
         <module name="NettyTomcat" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="NettyTomcat" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="NettyTomcat" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -25,6 +25,7 @@ public class ServletHandler extends SimpleChannelInboundHandler<FullHttpRequest>
         Servlet servlet = (Servlet)servletClass.newInstance();
         Request myRequest = new Request(ctx,request);
         Response myResponse = new Response(ctx,request);
+        System.out.println(request.getMethod());
         if("get".equals(request.getMethod())){
             servlet.doGet(myRequest, myResponse);
         }else {
